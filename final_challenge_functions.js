@@ -5,4 +5,5 @@ function primeTable(n) {
             }
         }
         return "prime";
+
 }
