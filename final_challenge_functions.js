@@ -1,19 +1,19 @@
-function primeTable(n) {
-        for (i = 2; i <= (n)/2; i++) {
-            if (n % i == 0) {
-                return "not prime";
-            }
+function prime(n) {
+    for (i = 2; i <= (n) / 2; i++) {
+        if (n % i == 0) {
+            return "not prime";
         }
-        return "prime";
+    }
+    return "prime";
 
 }
 
-function timesTable(number) {
+function timesTable(n) {
     document.write("<table>");
-    for(i=1; i<=number; i++) {
+    for (i = 1; i <= n; i++) {
         document.write("<tr>");
-        for(j=1;j<=number;j++) {
-            document.write("<td>", i*j, "</td>");
+        for (j = 1; j <= nr; j++) {
+            document.write("<td>", i * j, "</td>");
         }
         document.write("</td>");
     }
