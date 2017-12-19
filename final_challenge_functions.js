@@ -12,7 +12,7 @@ function timesTable(n) {
     document.write("<table>");
     for (i = 1; i <= n; i++) {
         document.write("<tr>");
-        for (j = 1; j <= nr; j++) {
+        for (j = 1; j <= n; j++) {
             document.write("<td>", i * j, "</td>");
         }
         document.write("</td>");
